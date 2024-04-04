@@ -1,0 +1,17 @@
+package kr.ac.kopo.webapplication.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+@Data
+@Builder(toBuilder = true) //dto의 기본형식 어놉테이션
+public class SampleDTO {
+
+        private Long sno;
+        private String first;
+        private String last;
+        private LocalDateTime regTime;
+
+}
