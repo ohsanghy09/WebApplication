@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 @RequestMapping("/sample") // 구동할 웹페이지파일이 있는 디렉토리
 public class SampleController {
 
-    @GetMapping("/ex1") // 구동할 웹페이지
+    @GetMapping("ex1") // 구동할 웹페이지
     public void ex(){
 
 
@@ -61,6 +61,10 @@ public class SampleController {
     public void ex3(){
 
     } // ex3}
+    @GetMapping("/exLayout1")
+    public void exLayout1(){
+
+    } // exLayout1}
 
 
 } //main}
